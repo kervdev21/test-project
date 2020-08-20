@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Cat Fun Facts App</title>
+        <!--Link CSS file Below-->
+        <link href="appStyle.css" rel="stylesheet" type="text/css">
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css">
+    </head>
+    <body>
+        <!--Add a header-->
+        <header>
+            <!--Add a H1 heading for your title of your app-->
+            <h1 id="title" class="animate__hinge">Cat Fun Facts</h1>
+
+            <!--Add a H3 or H4 heading for instructions-->
+            <!-- <h3 id="instructions" class="animate__fadeInUpBig">Welcome! This web app Displays beautiful cat images. Click on each cat image to learn about each different cat breed.</h3> -->
+        </header>
+        <!--Add section and name it -->
+        <section id="container">
+            <!--Add a class for cards-->
+            <div class="flip-card">
+                <div class="flip-card-inner">
+                  <div class="flip-card-front">
+                    <img src="img/abyssinian.jpg" class="catImage">
+                  </div>
+                  <div class="flip-card-back">
+                    <h1>John Doe</h1>
+                    <p>Architect & Engineer</p>
+                    <p>We love that guy</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="flip-card">
+                <div class="flip-card-inner">
+                  <div class="flip-card-front">
+                    <img src="img/aegean.jpg" class="catImage">
+                  </div>
+                  <div class="flip-card-back">
+                    <h1>John Doe</h1>
+                    <p>Architect & Engineer</p>
+                    <p>We love that guy</p>
+                  </div>
+                </div>
+              </div>
+              
+
+            
+
+            
+            <!--Add x amount of anchor tags for each image-->
+            
+            <a href=" " class="links"><img src="img/american bobtail.jpg" class="catImage"></a>
+            <a href=" " class="links"><img src="img/american curl.jpg" class="catImage"></a>
+            <a href=" " class="links"><img src="img/american shorthair.jpg" class="catImage"></a>
+            <a href=" " class="links"><img src="img/american wirehair.jpg" class="catImage"></a>
+            <a href=" " class="links"><img src="img/balinese.jpg" class="catImage"></a>
+            <a href=" " class="links"><img src="img/bambino.jpg" class="catImage"></a>
+            <a href=" " class="links"><img src="img/bengal.jpg" class="catImage"></a>
+            <a href=" " class="links"><img src="img/birdman.jpg" class="catImage"></a>
+            <a href=" " class="links"><img src="img/bombay.jpg" class="catImage"></a>
+            <a href=" " class="links"><img src="img/british shorthair.jpg" class="catImage"></a>  
+        </section>
+
+
+
+     <!--Link JS file below-->               
+    <script src="app.js"></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    </body>
+</html>
